@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #3498db;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 1em;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 1em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+#about {
+  background-color: #ecf0f1;
+  padding: 1em;
+}
+
+#projects {
+  background-color: #bdc3c7;
+  padding: 1em;
+}
+
+#projects ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#projects li {
+  background-color: #ecf0f1;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+#contact {
+  background-color: #bdc3c7;
+  padding: 1em;
+}
+
+label, input[type="submit"] {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 300px;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
